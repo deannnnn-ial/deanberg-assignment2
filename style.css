@@ -1,0 +1,39 @@
+/* change the format of the text in the body */
+body{
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color:#333;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* change the color and placement of the heading / "title" of the document */
+h1{
+    text-align: center;
+    color: #c0392b;
+}
+
+/* change the color and padding of the section headings
+and add a line underneath each */
+h2{
+    color: #2980b9;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid #2980b9;
+}
+
+/* change the font size of the paragraphs / smaller text */
+p{
+    font-size: 1.1em;
+}
+
+/* change padding/margins of the lists */
+ul, ol{
+    margin: 15px;
+    padding-left: 20px;
+}
+
+/* configure the image */
+img{
+    height: 250px;
+}

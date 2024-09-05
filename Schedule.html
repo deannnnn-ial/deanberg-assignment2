@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weekly Class Schedule</title>
+        <!-- CSS styling -------------------------------------->
+        <style>
+        th, td{
+            border: 1px solid #ddd;
+            text-align: center;
+            color: #535353;
+        }
+        /* adding a darker border to the ths (bottom & top) */
+        th{
+            border-bottom: 1px solid #535353;
+            border-top: 1px solid #535353;
+        }
+        /* adding a darker border to the table */
+        table{
+            border: 1px solid #535353;
+        }
+        /* adding the color change during hover */
+        td:hover, th:hover{
+            background-color: #f9f9f9;
+        }
+        /* editing the format of the table caption/title */
+        caption{
+            text-decoration-line: underline;
+            font-size: 20px;
+            color: #535353;
+            padding-bottom: 5px;
+        }
+        /* editing the format of the h1 text */
+        h1{
+            text-decoration-line: underline;
+            color: #535353;
+        }
+        /* editing the format of the p text (the link) */
+        p{
+            color:#535353;
+        }
+        /* changing every other row to a different color */
+        .Row{
+            background-color: rgb(229, 229, 229);
+        }
+        /* add some color changes so the body stuff is surrounded in white and the rest is grey */
+        body{
+            background-color:#535353;
+        }
+        div{
+            padding-top: 20px;
+            padding-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: white;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!-- header -->
+        <div>
+        <h1>
+            <i>Weekly Class Schedule</i>
+        </h1>
+        <!-- start of table -->
+        <table width="100%">
+            <caption><b>Class Schedule for Fall 2024</b></caption>
+            <!-- Table headings -->
+            <tr class="Row"> 
+                <th>Day</th> 
+                <th>Time</th>
+                <th>Course Name</th>
+                <th>Instructor</th>
+                <th>Building Name</th>
+                <th>Room Number</th>
+                <th>Section Number</th>
+            </tr>
+            <!-- Monday Classes -->
+            <tr>
+                <td rowspan="2" class="Row"><b>Monday</b></td>
+                <!-- class 1 -->
+                <td>12:30pm to 1:50pm</td>
+                <td>Component-Based Software Design</td>
+                <td>Christopher Pascucci</td>
+                <td>Tuttleman Learning Center</td>
+                <td>Room 402</td>
+                <td>001</td>
+            </tr>
+            <!-- class 2 -->
+            <tr class="Row">
+                <td>5:30pm to 8:00pm</td>
+                <td>Software Security</td>
+                <td>Derek Fisher</td>
+                <td>N/A</td>
+                <td>Online</td>
+                <td>702</td>
+            </tr>
+            <!-- Tuesday Classes -->
+            <tr>
+                <td rowspan="2" class="Row"><b>Tuesday</b></td>
+                <!-- class 1 -->
+                <td>11:00am to 12:20pm</td>
+                <td>Client-Side Scripting for the Web</td>
+                <td>Mounika Hospet</td>
+                <td>Tuttleman Learning Center</td>
+                <td>Room 307AB</td>
+                <td>002</td>
+            </tr>
+            <!-- class 2 -->
+            <tr class="Row">
+                <td>12:30pm to 1:50pm</td>
+                <td>Youth and Crime</td>
+                <td>Caterina Roman</td>
+                <td>Gladfelter Hall</td>
+                <td>Room 614</td>
+                <td>001</td>
+            </tr>
+            <!-- Wednesday Classes -->
+            <tr>
+                <td rowspan="2" class="Row"><b>Wednesday</b></td>
+                <!-- class 1 -->
+                <td>12:30pm to 1:50pm</td>
+                <td>Component-Based Software Design</td>
+                <td>Christopher Pascucci</td>
+                <td>Tuttleman Learning Center</td>
+                <td>Room 402</td>
+                <td>001</td>
+            </tr>
+            <!-- class 2 -->
+            <tr class="Row">
+                <td>5:30pm to 8:00pm</td>
+                <td>Why Care About College?</td>
+                <td>Jackie Lopez</td>
+                <td>Tuttleman Learning Center</td>
+                <td>Room 209</td>
+                <td>001</td>
+            </tr>
+            <!-- Thursday Classes -->
+            <tr>
+                <td rowspan="3" class="Row"><b>Thursday</b></td>
+                <!-- class 1 -->
+                <td>11:00am to 12:20pm</td>
+                <td>Client-Side Scripting for the Web</td>
+                <td>Mounika Hospet</td>
+                <td>Tuttleman Learning Center</td>
+                <td>Room 307AB</td>
+                <td>002</td>
+            </tr>
+            <!-- class 2 -->
+            <tr class="Row">
+                <td>12:30pm to 1:50pm</td>
+                <td>Youth and Crime</td>
+                <td>Caterina Roman</td>
+                <td>Gladfelter Hall</td>
+                <td>Room 614</td>
+                <td>001</td>
+            </tr>
+            <!-- class 3 -->
+            <tr>
+                <td>3:00pm to 4:50pm</td>
+                <td>Component-Based Software Design (LAB)</td>
+                <td>Negar M. Koushki (TA)</td>
+                <td>SERC</td>
+                <td>Room 204</td>
+                <td>001</td>
+            </tr>
+            <!-- Friday Classes -->
+            <tr class="Row">
+                <td class="Row"><b>Friday</b></td>
+                <!-- class 1 -->
+                <td>1:00pm to 2:50pm</td>
+                <td>Client-Side Scripting for the Web (LAB)</td>
+                <td>Liam Barnes (TA)</td>
+                <td>BioLife</td>
+                <td>Room 137</td>
+                <td>002</td>
+            </tr>
+        </table>
+
+        <!-- add the link to course information -->
+        <p><i>Information about the courses can be found
+        <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a>
+        for CIS classes and 
+        <a href="https://bulletin.temple.edu/undergraduate/courses/" target="_blank"> here</a>
+        for other classes. 
+        </i>
+        </p>
+
+        </div>
+    </body>
+</html>
